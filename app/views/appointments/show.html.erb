@@ -1,0 +1,6 @@
+<h1>Appointment</h1>
+
+<h2>Date: <%= @date %></h2>
+<h2>Time: <%= @time %></h2>
+<h3>For : <%= link_to @patient.name, patient_path(@patient)%></h3>
+<h3>With : <%= link_to @doctor.name, doctor_path(@doctor)%></h3>
